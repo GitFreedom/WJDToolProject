@@ -1,0 +1,1091 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		750F6F5721E8986E006C32C2 /* WJDCameraView.m in Sources */ = {isa = PBXBuildFile; fileRef = 750F6F5621E8986E006C32C2 /* WJDCameraView.m */; };
+		750F6F5A21E89BD3006C32C2 /* WJDUserManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 750F6F5921E89BD3006C32C2 /* WJDUserManager.m */; };
+		750F6F5D21E89BE9006C32C2 /* WJDUserInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 750F6F5C21E89BE9006C32C2 /* WJDUserInfo.m */; };
+		750F6F6021E8A024006C32C2 /* WJDBootPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 750F6F5F21E8A024006C32C2 /* WJDBootPageViewController.m */; };
+		751B8CA921F0296600CF0FCF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 751B8CA721F0296600CF0FCF /* LaunchScreen.storyboard */; };
+		75246CD721EC279A006E8679 /* WJDTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = 75246CD621EC279A006E8679 /* WJDTimer.m */; };
+		75246CDB21EC36D2006E8679 /* WJDThirdManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 75246CDA21EC36D2006E8679 /* WJDThirdManager.m */; };
+		7562E0F921EECEB500ED429B /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7562E0F821EECEB500ED429B /* FirstViewController.m */; };
+		7562E0FC21EED1FD00ED429B /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7562E0FB21EED1FD00ED429B /* SecondViewController.m */; };
+		7592D74321F005B20069D25D /* WJDImageProducer.m in Sources */ = {isa = PBXBuildFile; fileRef = 7592D74221F005B20069D25D /* WJDImageProducer.m */; };
+		75B0F6CE21EF016F00491929 /* WJDBaseTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 75B0F6CD21EF016F00491929 /* WJDBaseTableViewCell.m */; };
+		75B0F6D121EF034E00491929 /* FirstTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 75B0F6D021EF034E00491929 /* FirstTableViewCell.m */; };
+		75B0F6D421EF039B00491929 /* FirstTableViewCellModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 75B0F6D321EF039B00491929 /* FirstTableViewCellModel.m */; };
+		75C1F66821E4AF4B00607899 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 75C1F66721E4AF4B00607899 /* AppDelegate.m */; };
+		75C1F67021E4AF4C00607899 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75C1F66F21E4AF4C00607899 /* Assets.xcassets */; };
+		75C1F67621E4AF4C00607899 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 75C1F67521E4AF4C00607899 /* main.m */; };
+		75C1F68021E4AF4C00607899 /* WJDToolProjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 75C1F67F21E4AF4C00607899 /* WJDToolProjectTests.m */; };
+		75C1F68B21E4AF4C00607899 /* WJDToolProjectUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 75C1F68A21E4AF4C00607899 /* WJDToolProjectUITests.m */; };
+		75C1F6A321E4BA3D00607899 /* WJDJumpManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 75C1F6A221E4BA3D00607899 /* WJDJumpManager.m */; };
+		75C1F6A621E4BA5C00607899 /* WJDFont.m in Sources */ = {isa = PBXBuildFile; fileRef = 75C1F6A521E4BA5C00607899 /* WJDFont.m */; };
+		75C1F6A921E4BA6B00607899 /* WJDColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 75C1F6A821E4BA6B00607899 /* WJDColor.m */; };
+		75C1F6AC21E4BE4000607899 /* UIView+UIViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75C1F6AB21E4BE4000607899 /* UIView+UIViewController.m */; };
+		75C1F6AF21E4BEAD00607899 /* NSObject+UIViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75C1F6AE21E4BEAD00607899 /* NSObject+UIViewController.m */; };
+		75C1F6B321E4C0F500607899 /* WJDBlankView.m in Sources */ = {isa = PBXBuildFile; fileRef = 75C1F6B221E4C0F500607899 /* WJDBlankView.m */; };
+		75C1F6B721E4C39600607899 /* UIViewController+WJDBlankView.m in Sources */ = {isa = PBXBuildFile; fileRef = 75C1F6B621E4C39600607899 /* UIViewController+WJDBlankView.m */; };
+		75C1F6BC21E4C5D200607899 /* WJDDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = 75C1F6BB21E4C5D200607899 /* WJDDevice.m */; };
+		75C1F6BF21E4C89100607899 /* WJDBaseCellModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 75C1F6BE21E4C89100607899 /* WJDBaseCellModel.m */; };
+		75C1F6C221E4C8FD00607899 /* WJDBaseSectionModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 75C1F6C121E4C8FD00607899 /* WJDBaseSectionModel.m */; };
+		75C3DF172224D50400524A41 /* FifthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75C3DF162224D50400524A41 /* FifthViewController.m */; };
+		75E1D7AD21F01C8C00BDA7CC /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75E1D7AC21F01C8C00BDA7CC /* ThirdViewController.m */; };
+		75E1D7B021F01CA700BDA7CC /* FourthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75E1D7AF21F01CA700BDA7CC /* FourthViewController.m */; };
+		75E6D21321E5771C003DA4A8 /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = 75E6D21221E5771C003DA4A8 /* UIView+Frame.m */; };
+		75E6D21621E57791003DA4A8 /* NSString+WJDAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 75E6D21521E57791003DA4A8 /* NSString+WJDAdd.m */; };
+		75E6D21921E57C3B003DA4A8 /* WJDBaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75E6D21821E57C3B003DA4A8 /* WJDBaseNavigationController.m */; };
+		75E6D21C21E57CBD003DA4A8 /* WJDBaseTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75E6D21B21E57CBD003DA4A8 /* WJDBaseTabBarController.m */; };
+		75E6D21F21E57CEA003DA4A8 /* WJDBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75E6D21E21E57CEA003DA4A8 /* WJDBaseViewController.m */; };
+		75E6D22221E57D5D003DA4A8 /* WJDBaseTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75E6D22121E57D5D003DA4A8 /* WJDBaseTableViewController.m */; };
+		75E6D22621E582C5003DA4A8 /* UIImage+WJDAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 75E6D22521E582C5003DA4A8 /* UIImage+WJDAdd.m */; };
+		75F665E821EC72B100C65B3C /* WJDLoopScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 75F665E721EC72B100C65B3C /* WJDLoopScrollView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		75C1F67C21E4AF4C00607899 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 75C1F65B21E4AF4A00607899 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 75C1F66221E4AF4A00607899;
+			remoteInfo = WJDToolProject;
+		};
+		75C1F68721E4AF4C00607899 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 75C1F65B21E4AF4A00607899 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 75C1F66221E4AF4A00607899;
+			remoteInfo = WJDToolProject;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		750F6F5521E8986E006C32C2 /* WJDCameraView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WJDCameraView.h; sourceTree = "<group>"; };
+		750F6F5621E8986E006C32C2 /* WJDCameraView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WJDCameraView.m; sourceTree = "<group>"; };
+		750F6F5821E89BD3006C32C2 /* WJDUserManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WJDUserManager.h; sourceTree = "<group>"; };
+		750F6F5921E89BD3006C32C2 /* WJDUserManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WJDUserManager.m; sourceTree = "<group>"; };
+		750F6F5B21E89BE9006C32C2 /* WJDUserInfo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WJDUserInfo.h; sourceTree = "<group>"; };
+		750F6F5C21E89BE9006C32C2 /* WJDUserInfo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WJDUserInfo.m; sourceTree = "<group>"; };
+		750F6F5E21E8A024006C32C2 /* WJDBootPageViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WJDBootPageViewController.h; sourceTree = "<group>"; };
+		750F6F5F21E8A024006C32C2 /* WJDBootPageViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WJDBootPageViewController.m; sourceTree = "<group>"; };
+		751B8CA821F0296600CF0FCF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = WJDToolProject/Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		75246CD521EC279A006E8679 /* WJDTimer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WJDTimer.h; sourceTree = "<group>"; };
+		75246CD621EC279A006E8679 /* WJDTimer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WJDTimer.m; sourceTree = "<group>"; };
+		75246CD921EC36D2006E8679 /* WJDThirdManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WJDThirdManager.h; sourceTree = "<group>"; };
+		75246CDA21EC36D2006E8679 /* WJDThirdManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WJDThirdManager.m; sourceTree = "<group>"; };
+		7562E0F721EECEB500ED429B /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		7562E0F821EECEB500ED429B /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		7562E0FA21EED1FD00ED429B /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		7562E0FB21EED1FD00ED429B /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		7592D74121F005B20069D25D /* WJDImageProducer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WJDImageProducer.h; sourceTree = "<group>"; };
+		7592D74221F005B20069D25D /* WJDImageProducer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WJDImageProducer.m; sourceTree = "<group>"; };
+		75B0F6CC21EF016F00491929 /* WJDBaseTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WJDBaseTableViewCell.h; sourceTree = "<group>"; };
+		75B0F6CD21EF016F00491929 /* WJDBaseTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WJDBaseTableViewCell.m; sourceTree = "<group>"; };
+		75B0F6CF21EF034E00491929 /* FirstTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstTableViewCell.h; sourceTree = "<group>"; };
+		75B0F6D021EF034E00491929 /* FirstTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstTableViewCell.m; sourceTree = "<group>"; };
+		75B0F6D221EF039B00491929 /* FirstTableViewCellModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstTableViewCellModel.h; sourceTree = "<group>"; };
+		75B0F6D321EF039B00491929 /* FirstTableViewCellModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstTableViewCellModel.m; sourceTree = "<group>"; };
+		75C1F66321E4AF4A00607899 /* WJDToolProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WJDToolProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		75C1F66621E4AF4B00607899 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		75C1F66721E4AF4B00607899 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		75C1F66F21E4AF4C00607899 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		75C1F67421E4AF4C00607899 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		75C1F67521E4AF4C00607899 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		75C1F67B21E4AF4C00607899 /* WJDToolProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WJDToolProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		75C1F67F21E4AF4C00607899 /* WJDToolProjectTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WJDToolProjectTests.m; sourceTree = "<group>"; };
+		75C1F68121E4AF4C00607899 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		75C1F68621E4AF4C00607899 /* WJDToolProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WJDToolProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		75C1F68A21E4AF4C00607899 /* WJDToolProjectUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WJDToolProjectUITests.m; sourceTree = "<group>"; };
+		75C1F68C21E4AF4C00607899 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		75C1F6A121E4BA3D00607899 /* WJDJumpManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WJDJumpManager.h; sourceTree = "<group>"; };
+		75C1F6A221E4BA3D00607899 /* WJDJumpManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WJDJumpManager.m; sourceTree = "<group>"; };
+		75C1F6A421E4BA5C00607899 /* WJDFont.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WJDFont.h; sourceTree = "<group>"; };
+		75C1F6A521E4BA5C00607899 /* WJDFont.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WJDFont.m; sourceTree = "<group>"; };
+		75C1F6A721E4BA6B00607899 /* WJDColor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WJDColor.h; sourceTree = "<group>"; };
+		75C1F6A821E4BA6B00607899 /* WJDColor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WJDColor.m; sourceTree = "<group>"; };
+		75C1F6AA21E4BE4000607899 /* UIView+UIViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+UIViewController.h"; sourceTree = "<group>"; };
+		75C1F6AB21E4BE4000607899 /* UIView+UIViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+UIViewController.m"; sourceTree = "<group>"; };
+		75C1F6AD21E4BEAD00607899 /* NSObject+UIViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+UIViewController.h"; sourceTree = "<group>"; };
+		75C1F6AE21E4BEAD00607899 /* NSObject+UIViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+UIViewController.m"; sourceTree = "<group>"; };
+		75C1F6B121E4C0F500607899 /* WJDBlankView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WJDBlankView.h; sourceTree = "<group>"; };
+		75C1F6B221E4C0F500607899 /* WJDBlankView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WJDBlankView.m; sourceTree = "<group>"; };
+		75C1F6B421E4C2AC00607899 /* WJDBlankVIewCommon.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WJDBlankVIewCommon.h; sourceTree = "<group>"; };
+		75C1F6B521E4C39600607899 /* UIViewController+WJDBlankView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+WJDBlankView.h"; sourceTree = "<group>"; };
+		75C1F6B621E4C39600607899 /* UIViewController+WJDBlankView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+WJDBlankView.m"; sourceTree = "<group>"; };
+		75C1F6B921E4C59D00607899 /* WJDDeviceCommon.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WJDDeviceCommon.h; sourceTree = "<group>"; };
+		75C1F6BA21E4C5D200607899 /* WJDDevice.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WJDDevice.h; sourceTree = "<group>"; };
+		75C1F6BB21E4C5D200607899 /* WJDDevice.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WJDDevice.m; sourceTree = "<group>"; };
+		75C1F6BD21E4C89100607899 /* WJDBaseCellModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WJDBaseCellModel.h; sourceTree = "<group>"; };
+		75C1F6BE21E4C89100607899 /* WJDBaseCellModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WJDBaseCellModel.m; sourceTree = "<group>"; };
+		75C1F6C021E4C8FD00607899 /* WJDBaseSectionModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WJDBaseSectionModel.h; sourceTree = "<group>"; };
+		75C1F6C121E4C8FD00607899 /* WJDBaseSectionModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WJDBaseSectionModel.m; sourceTree = "<group>"; };
+		75C3DF152224D50400524A41 /* FifthViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FifthViewController.h; sourceTree = "<group>"; };
+		75C3DF162224D50400524A41 /* FifthViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FifthViewController.m; sourceTree = "<group>"; };
+		75E1D7AB21F01C8C00BDA7CC /* ThirdViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
+		75E1D7AC21F01C8C00BDA7CC /* ThirdViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
+		75E1D7AE21F01CA700BDA7CC /* FourthViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FourthViewController.h; sourceTree = "<group>"; };
+		75E1D7AF21F01CA700BDA7CC /* FourthViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FourthViewController.m; sourceTree = "<group>"; };
+		75E6D21121E5771C003DA4A8 /* UIView+Frame.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+Frame.h"; sourceTree = "<group>"; };
+		75E6D21221E5771C003DA4A8 /* UIView+Frame.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
+		75E6D21421E57791003DA4A8 /* NSString+WJDAdd.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+WJDAdd.h"; sourceTree = "<group>"; };
+		75E6D21521E57791003DA4A8 /* NSString+WJDAdd.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+WJDAdd.m"; sourceTree = "<group>"; };
+		75E6D21721E57C3B003DA4A8 /* WJDBaseNavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WJDBaseNavigationController.h; sourceTree = "<group>"; };
+		75E6D21821E57C3B003DA4A8 /* WJDBaseNavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WJDBaseNavigationController.m; sourceTree = "<group>"; };
+		75E6D21A21E57CBD003DA4A8 /* WJDBaseTabBarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WJDBaseTabBarController.h; sourceTree = "<group>"; };
+		75E6D21B21E57CBD003DA4A8 /* WJDBaseTabBarController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WJDBaseTabBarController.m; sourceTree = "<group>"; };
+		75E6D21D21E57CEA003DA4A8 /* WJDBaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WJDBaseViewController.h; sourceTree = "<group>"; };
+		75E6D21E21E57CEA003DA4A8 /* WJDBaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WJDBaseViewController.m; sourceTree = "<group>"; };
+		75E6D22021E57D5D003DA4A8 /* WJDBaseTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WJDBaseTableViewController.h; sourceTree = "<group>"; };
+		75E6D22121E57D5D003DA4A8 /* WJDBaseTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WJDBaseTableViewController.m; sourceTree = "<group>"; };
+		75E6D22421E582C5003DA4A8 /* UIImage+WJDAdd.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+WJDAdd.h"; sourceTree = "<group>"; };
+		75E6D22521E582C5003DA4A8 /* UIImage+WJDAdd.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+WJDAdd.m"; sourceTree = "<group>"; };
+		75F665E621EC72B100C65B3C /* WJDLoopScrollView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WJDLoopScrollView.h; sourceTree = "<group>"; };
+		75F665E721EC72B100C65B3C /* WJDLoopScrollView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WJDLoopScrollView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		75C1F66021E4AF4A00607899 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75C1F67821E4AF4C00607899 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75C1F68321E4AF4C00607899 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		750F6F5421E89837006C32C2 /* CameraView */ = {
+			isa = PBXGroup;
+			children = (
+				750F6F5521E8986E006C32C2 /* WJDCameraView.h */,
+				750F6F5621E8986E006C32C2 /* WJDCameraView.m */,
+			);
+			path = CameraView;
+			sourceTree = "<group>";
+		};
+		751B8CAA21F02A0D00CF0FCF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				75C1F67521E4AF4C00607899 /* main.m */,
+				75C1F67421E4AF4C00607899 /* Info.plist */,
+				751B8CA721F0296600CF0FCF /* LaunchScreen.storyboard */,
+				75C1F66F21E4AF4C00607899 /* Assets.xcassets */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		75246CD821EC3645006E8679 /* ThirdManager */ = {
+			isa = PBXGroup;
+			children = (
+				75246CD921EC36D2006E8679 /* WJDThirdManager.h */,
+				75246CDA21EC36D2006E8679 /* WJDThirdManager.m */,
+			);
+			path = ThirdManager;
+			sourceTree = "<group>";
+		};
+		7592D74021F005780069D25D /* ImageProducer */ = {
+			isa = PBXGroup;
+			children = (
+				7592D74121F005B20069D25D /* WJDImageProducer.h */,
+				7592D74221F005B20069D25D /* WJDImageProducer.m */,
+			);
+			path = ImageProducer;
+			sourceTree = "<group>";
+		};
+		75B0F6CB21EF013900491929 /* TableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				75B0F6CC21EF016F00491929 /* WJDBaseTableViewCell.h */,
+				75B0F6CD21EF016F00491929 /* WJDBaseTableViewCell.m */,
+			);
+			path = TableViewCell;
+			sourceTree = "<group>";
+		};
+		75B0F6D521EF125300491929 /* Demo */ = {
+			isa = PBXGroup;
+			children = (
+				75E1D79B21F01AC100BDA7CC /* FirstModule */,
+				75E1D79C21F01ADE00BDA7CC /* SecondModule */,
+				75E1D79D21F01AF900BDA7CC /* ThirdModule */,
+				75E1D79E21F01B1800BDA7CC /* FourthModule */,
+				75C3DF112224D42500524A41 /* FifthModule */,
+			);
+			path = Demo;
+			sourceTree = "<group>";
+		};
+		75C1F65A21E4AF4A00607899 = {
+			isa = PBXGroup;
+			children = (
+				75C1F66521E4AF4A00607899 /* WJDToolProject */,
+				75C1F67E21E4AF4C00607899 /* WJDToolProjectTests */,
+				75C1F68921E4AF4C00607899 /* WJDToolProjectUITests */,
+				75C1F66421E4AF4A00607899 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		75C1F66421E4AF4A00607899 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				75C1F66321E4AF4A00607899 /* WJDToolProject.app */,
+				75C1F67B21E4AF4C00607899 /* WJDToolProjectTests.xctest */,
+				75C1F68621E4AF4C00607899 /* WJDToolProjectUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		75C1F66521E4AF4A00607899 /* WJDToolProject */ = {
+			isa = PBXGroup;
+			children = (
+				75C1F66621E4AF4B00607899 /* AppDelegate.h */,
+				75C1F66721E4AF4B00607899 /* AppDelegate.m */,
+				75C1F69821E4AF6200607899 /* WJDTool */,
+				75B0F6D521EF125300491929 /* Demo */,
+				751B8CAA21F02A0D00CF0FCF /* Supporting Files */,
+			);
+			path = WJDToolProject;
+			sourceTree = "<group>";
+		};
+		75C1F67E21E4AF4C00607899 /* WJDToolProjectTests */ = {
+			isa = PBXGroup;
+			children = (
+				75C1F67F21E4AF4C00607899 /* WJDToolProjectTests.m */,
+				75C1F68121E4AF4C00607899 /* Info.plist */,
+			);
+			path = WJDToolProjectTests;
+			sourceTree = "<group>";
+		};
+		75C1F68921E4AF4C00607899 /* WJDToolProjectUITests */ = {
+			isa = PBXGroup;
+			children = (
+				75C1F68A21E4AF4C00607899 /* WJDToolProjectUITests.m */,
+				75C1F68C21E4AF4C00607899 /* Info.plist */,
+			);
+			path = WJDToolProjectUITests;
+			sourceTree = "<group>";
+		};
+		75C1F69821E4AF6200607899 /* WJDTool */ = {
+			isa = PBXGroup;
+			children = (
+				7592D74021F005780069D25D /* ImageProducer */,
+				75246CD821EC3645006E8679 /* ThirdManager */,
+				75E6D22721E58909003DA4A8 /* Timer */,
+				75E6D22321E57DF6003DA4A8 /* UserManager */,
+				75C1F6B821E4C54900607899 /* Device */,
+				75C1F69F21E4B05F00607899 /* Common */,
+				75C1F69921E4AF7D00607899 /* ViewControllers */,
+				75C1F69B21E4AFC300607899 /* Views */,
+				75C1F69A21E4AF9900607899 /* Models */,
+				75C1F69C21E4AFD200607899 /* Category */,
+				75C1F69D21E4B03F00607899 /* Colors */,
+				75C1F69E21E4B05300607899 /* Fonts */,
+				75C1F6A021E4B07600607899 /* JumpManager */,
+			);
+			path = WJDTool;
+			sourceTree = "<group>";
+		};
+		75C1F69921E4AF7D00607899 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				75E6D21721E57C3B003DA4A8 /* WJDBaseNavigationController.h */,
+				75E6D21821E57C3B003DA4A8 /* WJDBaseNavigationController.m */,
+				75E6D21A21E57CBD003DA4A8 /* WJDBaseTabBarController.h */,
+				75E6D21B21E57CBD003DA4A8 /* WJDBaseTabBarController.m */,
+				75E6D21D21E57CEA003DA4A8 /* WJDBaseViewController.h */,
+				75E6D21E21E57CEA003DA4A8 /* WJDBaseViewController.m */,
+				75E6D22021E57D5D003DA4A8 /* WJDBaseTableViewController.h */,
+				75E6D22121E57D5D003DA4A8 /* WJDBaseTableViewController.m */,
+				750F6F5E21E8A024006C32C2 /* WJDBootPageViewController.h */,
+				750F6F5F21E8A024006C32C2 /* WJDBootPageViewController.m */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		75C1F69A21E4AF9900607899 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				75C1F6BD21E4C89100607899 /* WJDBaseCellModel.h */,
+				75C1F6BE21E4C89100607899 /* WJDBaseCellModel.m */,
+				75C1F6C021E4C8FD00607899 /* WJDBaseSectionModel.h */,
+				75C1F6C121E4C8FD00607899 /* WJDBaseSectionModel.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		75C1F69B21E4AFC300607899 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				75B0F6CB21EF013900491929 /* TableViewCell */,
+				75F665E521EC726F00C65B3C /* LoopScrollView */,
+				750F6F5421E89837006C32C2 /* CameraView */,
+				75C1F6B021E4C0B600607899 /* BlankView */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		75C1F69C21E4AFD200607899 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				75C1F6AA21E4BE4000607899 /* UIView+UIViewController.h */,
+				75C1F6AB21E4BE4000607899 /* UIView+UIViewController.m */,
+				75C1F6AD21E4BEAD00607899 /* NSObject+UIViewController.h */,
+				75C1F6AE21E4BEAD00607899 /* NSObject+UIViewController.m */,
+				75C1F6B521E4C39600607899 /* UIViewController+WJDBlankView.h */,
+				75C1F6B621E4C39600607899 /* UIViewController+WJDBlankView.m */,
+				75E6D21121E5771C003DA4A8 /* UIView+Frame.h */,
+				75E6D21221E5771C003DA4A8 /* UIView+Frame.m */,
+				75E6D21421E57791003DA4A8 /* NSString+WJDAdd.h */,
+				75E6D21521E57791003DA4A8 /* NSString+WJDAdd.m */,
+				75E6D22421E582C5003DA4A8 /* UIImage+WJDAdd.h */,
+				75E6D22521E582C5003DA4A8 /* UIImage+WJDAdd.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		75C1F69D21E4B03F00607899 /* Colors */ = {
+			isa = PBXGroup;
+			children = (
+				75C1F6A721E4BA6B00607899 /* WJDColor.h */,
+				75C1F6A821E4BA6B00607899 /* WJDColor.m */,
+			);
+			path = Colors;
+			sourceTree = "<group>";
+		};
+		75C1F69E21E4B05300607899 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				75C1F6A421E4BA5C00607899 /* WJDFont.h */,
+				75C1F6A521E4BA5C00607899 /* WJDFont.m */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		75C1F69F21E4B05F00607899 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		75C1F6A021E4B07600607899 /* JumpManager */ = {
+			isa = PBXGroup;
+			children = (
+				75C1F6A121E4BA3D00607899 /* WJDJumpManager.h */,
+				75C1F6A221E4BA3D00607899 /* WJDJumpManager.m */,
+			);
+			path = JumpManager;
+			sourceTree = "<group>";
+		};
+		75C1F6B021E4C0B600607899 /* BlankView */ = {
+			isa = PBXGroup;
+			children = (
+				75C1F6B421E4C2AC00607899 /* WJDBlankVIewCommon.h */,
+				75C1F6B121E4C0F500607899 /* WJDBlankView.h */,
+				75C1F6B221E4C0F500607899 /* WJDBlankView.m */,
+			);
+			path = BlankView;
+			sourceTree = "<group>";
+		};
+		75C1F6B821E4C54900607899 /* Device */ = {
+			isa = PBXGroup;
+			children = (
+				75C1F6B921E4C59D00607899 /* WJDDeviceCommon.h */,
+				75C1F6BA21E4C5D200607899 /* WJDDevice.h */,
+				75C1F6BB21E4C5D200607899 /* WJDDevice.m */,
+			);
+			path = Device;
+			sourceTree = "<group>";
+		};
+		75C3DF112224D42500524A41 /* FifthModule */ = {
+			isa = PBXGroup;
+			children = (
+				75C3DF122224D45800524A41 /* Controllers */,
+				75C3DF132224D47400524A41 /* Models */,
+				75C3DF142224D48300524A41 /* Views */,
+			);
+			path = FifthModule;
+			sourceTree = "<group>";
+		};
+		75C3DF122224D45800524A41 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				75C3DF152224D50400524A41 /* FifthViewController.h */,
+				75C3DF162224D50400524A41 /* FifthViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		75C3DF132224D47400524A41 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		75C3DF142224D48300524A41 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		75E1D79B21F01AC100BDA7CC /* FirstModule */ = {
+			isa = PBXGroup;
+			children = (
+				75E1D7A121F01B6D00BDA7CC /* Controllers */,
+				75E1D7A021F01B5F00BDA7CC /* Views */,
+				75E1D79F21F01B4000BDA7CC /* Models */,
+			);
+			path = FirstModule;
+			sourceTree = "<group>";
+		};
+		75E1D79C21F01ADE00BDA7CC /* SecondModule */ = {
+			isa = PBXGroup;
+			children = (
+				75E1D7A321F01BF600BDA7CC /* Controllers */,
+				75E1D7A221F01BF600BDA7CC /* Models */,
+				75E1D7A421F01BF600BDA7CC /* Views */,
+			);
+			path = SecondModule;
+			sourceTree = "<group>";
+		};
+		75E1D79D21F01AF900BDA7CC /* ThirdModule */ = {
+			isa = PBXGroup;
+			children = (
+				75E1D7A721F01C0800BDA7CC /* Controllers */,
+				75E1D7A621F01C0800BDA7CC /* Models */,
+				75E1D7A521F01C0800BDA7CC /* Views */,
+			);
+			path = ThirdModule;
+			sourceTree = "<group>";
+		};
+		75E1D79E21F01B1800BDA7CC /* FourthModule */ = {
+			isa = PBXGroup;
+			children = (
+				75E1D7AA21F01C1400BDA7CC /* Controllers */,
+				75E1D7A921F01C1400BDA7CC /* Models */,
+				75E1D7A821F01C1400BDA7CC /* Views */,
+			);
+			path = FourthModule;
+			sourceTree = "<group>";
+		};
+		75E1D79F21F01B4000BDA7CC /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				75B0F6D221EF039B00491929 /* FirstTableViewCellModel.h */,
+				75B0F6D321EF039B00491929 /* FirstTableViewCellModel.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		75E1D7A021F01B5F00BDA7CC /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				75B0F6CF21EF034E00491929 /* FirstTableViewCell.h */,
+				75B0F6D021EF034E00491929 /* FirstTableViewCell.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		75E1D7A121F01B6D00BDA7CC /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				7562E0F721EECEB500ED429B /* FirstViewController.h */,
+				7562E0F821EECEB500ED429B /* FirstViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		75E1D7A221F01BF600BDA7CC /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		75E1D7A321F01BF600BDA7CC /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				7562E0FA21EED1FD00ED429B /* SecondViewController.h */,
+				7562E0FB21EED1FD00ED429B /* SecondViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		75E1D7A421F01BF600BDA7CC /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		75E1D7A521F01C0800BDA7CC /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		75E1D7A621F01C0800BDA7CC /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		75E1D7A721F01C0800BDA7CC /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				75E1D7AB21F01C8C00BDA7CC /* ThirdViewController.h */,
+				75E1D7AC21F01C8C00BDA7CC /* ThirdViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		75E1D7A821F01C1400BDA7CC /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		75E1D7A921F01C1400BDA7CC /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		75E1D7AA21F01C1400BDA7CC /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				75E1D7AE21F01CA700BDA7CC /* FourthViewController.h */,
+				75E1D7AF21F01CA700BDA7CC /* FourthViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		75E6D22321E57DF6003DA4A8 /* UserManager */ = {
+			isa = PBXGroup;
+			children = (
+				750F6F5821E89BD3006C32C2 /* WJDUserManager.h */,
+				750F6F5921E89BD3006C32C2 /* WJDUserManager.m */,
+				750F6F5B21E89BE9006C32C2 /* WJDUserInfo.h */,
+				750F6F5C21E89BE9006C32C2 /* WJDUserInfo.m */,
+			);
+			path = UserManager;
+			sourceTree = "<group>";
+		};
+		75E6D22721E58909003DA4A8 /* Timer */ = {
+			isa = PBXGroup;
+			children = (
+				75246CD521EC279A006E8679 /* WJDTimer.h */,
+				75246CD621EC279A006E8679 /* WJDTimer.m */,
+			);
+			path = Timer;
+			sourceTree = "<group>";
+		};
+		75F665E521EC726F00C65B3C /* LoopScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				75F665E621EC72B100C65B3C /* WJDLoopScrollView.h */,
+				75F665E721EC72B100C65B3C /* WJDLoopScrollView.m */,
+			);
+			path = LoopScrollView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		75C1F66221E4AF4A00607899 /* WJDToolProject */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 75C1F68F21E4AF4C00607899 /* Build configuration list for PBXNativeTarget "WJDToolProject" */;
+			buildPhases = (
+				75C1F65F21E4AF4A00607899 /* Sources */,
+				75C1F66021E4AF4A00607899 /* Frameworks */,
+				75C1F66121E4AF4A00607899 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WJDToolProject;
+			productName = WJDToolProject;
+			productReference = 75C1F66321E4AF4A00607899 /* WJDToolProject.app */;
+			productType = "com.apple.product-type.application";
+		};
+		75C1F67A21E4AF4C00607899 /* WJDToolProjectTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 75C1F69221E4AF4C00607899 /* Build configuration list for PBXNativeTarget "WJDToolProjectTests" */;
+			buildPhases = (
+				75C1F67721E4AF4C00607899 /* Sources */,
+				75C1F67821E4AF4C00607899 /* Frameworks */,
+				75C1F67921E4AF4C00607899 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				75C1F67D21E4AF4C00607899 /* PBXTargetDependency */,
+			);
+			name = WJDToolProjectTests;
+			productName = WJDToolProjectTests;
+			productReference = 75C1F67B21E4AF4C00607899 /* WJDToolProjectTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		75C1F68521E4AF4C00607899 /* WJDToolProjectUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 75C1F69521E4AF4C00607899 /* Build configuration list for PBXNativeTarget "WJDToolProjectUITests" */;
+			buildPhases = (
+				75C1F68221E4AF4C00607899 /* Sources */,
+				75C1F68321E4AF4C00607899 /* Frameworks */,
+				75C1F68421E4AF4C00607899 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				75C1F68821E4AF4C00607899 /* PBXTargetDependency */,
+			);
+			name = WJDToolProjectUITests;
+			productName = WJDToolProjectUITests;
+			productReference = 75C1F68621E4AF4C00607899 /* WJDToolProjectUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		75C1F65B21E4AF4A00607899 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = WJD;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = www.wangjundong.com;
+				TargetAttributes = {
+					75C1F66221E4AF4A00607899 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					75C1F67A21E4AF4C00607899 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 75C1F66221E4AF4A00607899;
+					};
+					75C1F68521E4AF4C00607899 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 75C1F66221E4AF4A00607899;
+					};
+				};
+			};
+			buildConfigurationList = 75C1F65E21E4AF4A00607899 /* Build configuration list for PBXProject "WJDToolProject" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 75C1F65A21E4AF4A00607899;
+			productRefGroup = 75C1F66421E4AF4A00607899 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				75C1F66221E4AF4A00607899 /* WJDToolProject */,
+				75C1F67A21E4AF4C00607899 /* WJDToolProjectTests */,
+				75C1F68521E4AF4C00607899 /* WJDToolProjectUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		75C1F66121E4AF4A00607899 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75C1F67021E4AF4C00607899 /* Assets.xcassets in Resources */,
+				751B8CA921F0296600CF0FCF /* LaunchScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75C1F67921E4AF4C00607899 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75C1F68421E4AF4C00607899 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		75C1F65F21E4AF4A00607899 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7562E0FC21EED1FD00ED429B /* SecondViewController.m in Sources */,
+				75C1F6C221E4C8FD00607899 /* WJDBaseSectionModel.m in Sources */,
+				75246CD721EC279A006E8679 /* WJDTimer.m in Sources */,
+				75C1F6B721E4C39600607899 /* UIViewController+WJDBlankView.m in Sources */,
+				750F6F5A21E89BD3006C32C2 /* WJDUserManager.m in Sources */,
+				750F6F6021E8A024006C32C2 /* WJDBootPageViewController.m in Sources */,
+				750F6F5721E8986E006C32C2 /* WJDCameraView.m in Sources */,
+				75F665E821EC72B100C65B3C /* WJDLoopScrollView.m in Sources */,
+				75E6D22621E582C5003DA4A8 /* UIImage+WJDAdd.m in Sources */,
+				75E6D21321E5771C003DA4A8 /* UIView+Frame.m in Sources */,
+				75C1F6BF21E4C89100607899 /* WJDBaseCellModel.m in Sources */,
+				75E6D21F21E57CEA003DA4A8 /* WJDBaseViewController.m in Sources */,
+				75B0F6D421EF039B00491929 /* FirstTableViewCellModel.m in Sources */,
+				75C1F6A621E4BA5C00607899 /* WJDFont.m in Sources */,
+				75C1F67621E4AF4C00607899 /* main.m in Sources */,
+				75C1F6BC21E4C5D200607899 /* WJDDevice.m in Sources */,
+				75C1F66821E4AF4B00607899 /* AppDelegate.m in Sources */,
+				75C1F6A321E4BA3D00607899 /* WJDJumpManager.m in Sources */,
+				75C1F6AC21E4BE4000607899 /* UIView+UIViewController.m in Sources */,
+				750F6F5D21E89BE9006C32C2 /* WJDUserInfo.m in Sources */,
+				75B0F6CE21EF016F00491929 /* WJDBaseTableViewCell.m in Sources */,
+				75C1F6AF21E4BEAD00607899 /* NSObject+UIViewController.m in Sources */,
+				75E6D21621E57791003DA4A8 /* NSString+WJDAdd.m in Sources */,
+				75E1D7AD21F01C8C00BDA7CC /* ThirdViewController.m in Sources */,
+				75E6D21C21E57CBD003DA4A8 /* WJDBaseTabBarController.m in Sources */,
+				75E1D7B021F01CA700BDA7CC /* FourthViewController.m in Sources */,
+				75C1F6A921E4BA6B00607899 /* WJDColor.m in Sources */,
+				7592D74321F005B20069D25D /* WJDImageProducer.m in Sources */,
+				75B0F6D121EF034E00491929 /* FirstTableViewCell.m in Sources */,
+				75C1F6B321E4C0F500607899 /* WJDBlankView.m in Sources */,
+				75E6D22221E57D5D003DA4A8 /* WJDBaseTableViewController.m in Sources */,
+				75E6D21921E57C3B003DA4A8 /* WJDBaseNavigationController.m in Sources */,
+				7562E0F921EECEB500ED429B /* FirstViewController.m in Sources */,
+				75C3DF172224D50400524A41 /* FifthViewController.m in Sources */,
+				75246CDB21EC36D2006E8679 /* WJDThirdManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75C1F67721E4AF4C00607899 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75C1F68021E4AF4C00607899 /* WJDToolProjectTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75C1F68221E4AF4C00607899 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75C1F68B21E4AF4C00607899 /* WJDToolProjectUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		75C1F67D21E4AF4C00607899 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 75C1F66221E4AF4A00607899 /* WJDToolProject */;
+			targetProxy = 75C1F67C21E4AF4C00607899 /* PBXContainerItemProxy */;
+		};
+		75C1F68821E4AF4C00607899 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 75C1F66221E4AF4A00607899 /* WJDToolProject */;
+			targetProxy = 75C1F68721E4AF4C00607899 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		751B8CA721F0296600CF0FCF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				751B8CA821F0296600CF0FCF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		75C1F68D21E4AF4C00607899 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		75C1F68E21E4AF4C00607899 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		75C1F69021E4AF4C00607899 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5DG6EH88W5;
+				INFOPLIST_FILE = "$(SRCROOT)/WJDToolProject/Supporting Files/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.wjd.WJDToolProject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		75C1F69121E4AF4C00607899 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5DG6EH88W5;
+				INFOPLIST_FILE = "$(SRCROOT)/WJDToolProject/Supporting Files/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.wjd.WJDToolProject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		75C1F69321E4AF4C00607899 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5DG6EH88W5;
+				INFOPLIST_FILE = WJDToolProjectTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.wjd.WJDToolProjectTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WJDToolProject.app/WJDToolProject";
+			};
+			name = Debug;
+		};
+		75C1F69421E4AF4C00607899 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5DG6EH88W5;
+				INFOPLIST_FILE = WJDToolProjectTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.wjd.WJDToolProjectTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WJDToolProject.app/WJDToolProject";
+			};
+			name = Release;
+		};
+		75C1F69621E4AF4C00607899 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5DG6EH88W5;
+				INFOPLIST_FILE = WJDToolProjectUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.wjd.WJDToolProjectUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WJDToolProject;
+			};
+			name = Debug;
+		};
+		75C1F69721E4AF4C00607899 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5DG6EH88W5;
+				INFOPLIST_FILE = WJDToolProjectUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.wjd.WJDToolProjectUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WJDToolProject;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		75C1F65E21E4AF4A00607899 /* Build configuration list for PBXProject "WJDToolProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75C1F68D21E4AF4C00607899 /* Debug */,
+				75C1F68E21E4AF4C00607899 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		75C1F68F21E4AF4C00607899 /* Build configuration list for PBXNativeTarget "WJDToolProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75C1F69021E4AF4C00607899 /* Debug */,
+				75C1F69121E4AF4C00607899 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		75C1F69221E4AF4C00607899 /* Build configuration list for PBXNativeTarget "WJDToolProjectTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75C1F69321E4AF4C00607899 /* Debug */,
+				75C1F69421E4AF4C00607899 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		75C1F69521E4AF4C00607899 /* Build configuration list for PBXNativeTarget "WJDToolProjectUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75C1F69621E4AF4C00607899 /* Debug */,
+				75C1F69721E4AF4C00607899 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 75C1F65B21E4AF4A00607899 /* Project object */;
+}
